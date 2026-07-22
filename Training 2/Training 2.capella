@@ -96,6 +96,8 @@
               id="b7115ee9-fbfc-4ddb-bbbc-4d36353236f3" name="Coordinate transit activities around aircrafts"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="d935d368-b956-421b-9073-dc9f2896717e" name="perform pre-flight routine"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="3c17b086-d2e7-491c-b880-931f1658f3d4" name="OperationalActivity 7"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="a1d67338-4f1d-4dc2-ab92-dcb5e402034e" name="timing constraints"
               target="#f64721b2-cbdf-43f0-b593-3073eca4a776" source="#75de30ce-644f-4222-8c0c-ab46df321085"/>
@@ -241,6 +243,8 @@
               id="da9c7eda-5db2-4a21-bda1-b06fdfddad13" involved="#52f29cec-d3d1-4460-9b99-55238b2556df"/>
           <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
               id="95f044f3-4363-49f5-b4b0-0138b6c6dbf1" involved="#3ea2183e-2ce3-402f-8a8b-79404e275a7f"/>
+          <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
+              id="882cfc8f-2357-4e7b-b03e-9c7b26b79b65" involved="#3c17b086-d2e7-491c-b880-931f1658f3d4"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="7cd71796-1002-42f5-b217-f0b38bdc2ee6" involved="#542ef9d1-2679-4181-bae2-ad4b0a74aaeb"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
