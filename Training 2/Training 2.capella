@@ -268,6 +268,8 @@
             name="Maintenance provider " abstractType="#72e6695e-c0d0-49fe-8905-14634203f4f6"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="87b428e8-91a1-44df-9d72-bb0327e78093"
             name="Airport authorities" abstractType="#87c9c35f-7099-45c6-b3bc-56b12d93ad69"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="01ac4236-83a8-43a2-97e7-8b7690a1925b"
+            name="OE 4" abstractType="#2b691023-44a6-45f0-b088-05abf1819a80"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="542ef9d1-2679-4181-bae2-ad4b0a74aaeb"
             name="Aircraft captain" actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -295,6 +297,8 @@
               id="02d18060-8ae1-45e9-90ba-813bf75ed77f" targetElement="#b7115ee9-fbfc-4ddb-bbbc-4d36353236f3"
               sourceElement="#87c9c35f-7099-45c6-b3bc-56b12d93ad69"/>
         </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="2b691023-44a6-45f0-b088-05abf1819a80"
+            name="OE 4"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
