@@ -127,6 +127,9 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="18c2e7c5-f8a2-4c16-b469-529aa40f2355" name="diagnostic" target="#d935d368-b956-421b-9073-dc9f2896717e"
               source="#52f29cec-d3d1-4460-9b99-55238b2556df"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7a062e30-1ae4-45b5-98e6-d763e951baf4" name="Interaction 10" target="#3c17b086-d2e7-491c-b880-931f1658f3d4"
+              source="#9e58aaac-eb01-4eab-85a5-43c3fbc6375e"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
